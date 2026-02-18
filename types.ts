@@ -1,4 +1,3 @@
-
 export interface Formula {
   equation: string;
   label: string;

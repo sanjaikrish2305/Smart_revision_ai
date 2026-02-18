@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SummaryResult, SUBJECTS } from '../types';
 

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Subject, SUBJECTS } from '../types';
 
