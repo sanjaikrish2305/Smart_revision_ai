@@ -4,6 +4,36 @@
 
 @layer base {
   body {
-    @apply antialiased;
+    @apply antialiased bg-[#fcfdfe] text-slate-900;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.05) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.05) 0, transparent 50%);
   }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-purple-600;
+  }
+  
+  .math-font {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  .formula-card {
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  
+  .formula-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .prose p {
+    margin-bottom: 1.25rem;
+  }
+}
+
+::selection {
+  background: #e0e7ff;
+  color: #4338ca;
 }
