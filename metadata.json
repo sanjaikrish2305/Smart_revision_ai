@@ -1,0 +1,5 @@
+{
+  "name": "SmartRevise AI",
+  "description": "A Generative AI-powered revision tool that transforms lengthy PDFs into concise summaries, key points, and formula sheets, complete with curated video learning suggestions.",
+  "requestFramePermissions": []
+}
